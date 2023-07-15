@@ -1,0 +1,122 @@
+I"4<table>
+  
+    
+    <tr>
+      
+        <th>Year</th>
+      
+        <th>Location</th>
+      
+        <th>Pace</th>
+      
+    </tr>
+    
+
+    <tr class="row1">
+<td class="col1">
+      2023
+    </td><td class="col2">
+       Frisco TX
+    </td><td class="col3">
+       13.05
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      2022
+    </td><td class="col2">
+       Frisco TX
+    </td><td class="col3">
+      12:20
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      2020
+    </td><td class="col2">
+      McKinney TX
+    </td><td class="col3">
+      12:14
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      2019
+    </td><td class="col2">
+      McKinney TX
+    </td><td class="col3">
+      12:01
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      2019
+    </td><td class="col2">
+      Plano TX
+    </td><td class="col3">
+      12.58
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      2018
+    </td><td class="col2">
+      McKinney TX
+    </td><td class="col3">
+      12.21
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      2018
+    </td><td class="col2">
+      Bentonville AR
+    </td><td class="col3">
+      11.05
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      2017
+    </td><td class="col2">
+      Fayetteville AR
+    </td><td class="col3">
+      11.28
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      2017
+    </td><td class="col2">
+      Bentonville AR
+    </td><td class="col3">
+      11.32
+    </td></tr>
+
+  
+</table>
+:ET

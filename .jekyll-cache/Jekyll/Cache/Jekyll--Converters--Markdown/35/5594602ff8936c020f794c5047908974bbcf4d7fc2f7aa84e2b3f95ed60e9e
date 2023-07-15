@@ -1,0 +1,38 @@
+I"1<table>
+  
+    
+    <tr>
+      
+        <th>Conference</th>
+      
+        <th>Location</th>
+      
+        <th>Year</th>
+      
+    </tr>
+    
+
+    <tr class="row1">
+<td class="col1">
+      Americas Conference on Information Systems (AMCIS)
+    </td><td class="col2">
+       Minneapolis MN
+    </td><td class="col3">
+       2022
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      Americas Conference on Information Systems (AMCIS)
+    </td><td class="col2">
+       Virtual
+    </td><td class="col3">
+       2021
+    </td></tr>
+
+  
+</table>
+:ET

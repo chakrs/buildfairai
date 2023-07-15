@@ -1,0 +1,55 @@
+---
+layout: default
+---
+      <!-- page.html -->
+      <!-- Content -->
+
+      <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+          {%- assign profile_image_path = 'assets/img/reviewer.jpg' -%}
+          {% include figure.html
+          path=profile_image_path
+          class="img-fluid z-dept-1 rounded"
+          alt=page.profile.image -%}
+      </div>
+
+
+      <div class="post table">
+
+        <d-title>
+          <h1>{{ page.title }}</h1>
+          <p>{{ page.description }}</p>
+        </d-title>
+
+        <d-article>
+          {% if page.toc -%}
+          <d-contents>
+            <nav class="l-text figcaption">
+            <h3>Contents</h3>
+              {% for section in page.toc -%}
+              <div><a href="#{{ section.name | slugify }}">{{ section.name }}</a></div>
+              {% if section.subsections -%}
+              <ul>
+                {% for subsection in section.subsections -%}
+                <li><a href="#{{ subsection.name | slugify }}">{{ subsection.name }}</a></li>
+                {% endfor %}
+              </ul>
+              {%- endif -%}
+              {%- endfor %}
+            </nav>
+          </d-contents>
+          {%- endif %}
+
+          {{ content }}
+        </d-article>
+      </div>
+      <!-- Social -->
+      <div class="social">
+        <div class="contact-icons">
+        {% include social.html %}
+        </div>
+
+        <div class="contact-note">
+          {{ site.contact_note }}
+        </div>
+
+      </div>
